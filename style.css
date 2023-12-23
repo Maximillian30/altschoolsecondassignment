@@ -1,0 +1,310 @@
+@font-face {
+    font-family: 'sofiaProlight';
+    src: url("fonts/sofiapro-light.otf") 
+}
+@font-face {
+    font-family: 'brown';
+    src: url("fonts/BrownMedium\ Regular.ttf") 
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background: #F7FDFC;
+}
+.body-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+.first-sec{
+    width: 47%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-wrapper{
+    width: 77.33px;
+    height: 80px;
+}
+.img-wrapper img{
+    width: 100px;
+    height: 100px;
+}
+.com-int-wrap h1{
+    font-family: "brown";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: -0.800000011920929px;
+    text-align: left;
+    color: #000B0A;
+}
+.com-int-wrap p{
+    width: 430px;
+    height: 75px;
+    font-family: "brown";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #737373;  
+}
+.sec-sec{
+    width: 53%;
+    height: 210%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.form-wrapp{
+    margin-top: 60px;
+    background: #FFFFFF;
+    width: 555px;
+    height: 600px;
+    border-radius: 6px;
+    padding: 40px 0px 0px 35px;
+    box-shadow: 0px 4px 50px 0px #0408131A;
+}
+.form-wrapp form{
+    width: 510px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-first-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-sec-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form-thir-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-wrapp form label{
+    font-family: 'sofiaProlight';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #011C34;
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 238px;
+    height: 72px;
+}
+.form-div-two{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 238px;
+    height: 72px;
+}
+.form-div-p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 238px;
+    height: 72px;
+}
+.form-div-p div{
+    display: flex;
+    align-items: center;
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    width: 238px;
+    height: 48px;
+    padding-left: 10px;
+}
+.form-div-p div img{
+    width: 20px;
+}
+.form-div-p div input{
+    border: none;
+    outline: none;
+    height: 42px;
+    width: 200px;
+}
+.form-div-p div input[type=date]{
+    visibility: hidden;
+}
+.form-div input{
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    width: 238px;
+    height: 48px;
+    padding-left: 10px;
+}
+.form-div input::-webkit-outer-spin-button,
+.form-div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.form-div input[type=number] {
+  appearance: textfield;
+}
+.form-div select, .form-div option{
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    width: 252px;
+    height: 48px;
+    padding-left: 10px;
+}
+.for-div-t{
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    width: 510px;
+    padding-left: 10px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.for-div-t input{
+    border: none;
+    outline: none;
+    width: 480px;
+    height: 40px;
+}
+.form-div-two select{
+    border: 1px solid #F0F0F0;
+    border-radius: 2px;
+    width: 523px;
+    padding-left: 10px;
+    height: 48px;
+}
+.form-div input::placeholder, .form-div select{
+    font-family: 'sofiaProlight';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color:#737373;
+}
+.form-div-two input::placeholder, .form-div-two select{
+    font-family: 'sofiaProlight';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    color:#737373;
+    text-align: left;
+}
+.form-wrapp option{
+    color: black;
+}
+.btn{
+    margin-bottom: 0;
+}
+.btn button{
+    font-family: 'sofiaProlight';
+    width: 523px;
+    cursor: pointer;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 2px;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #2EC4B6;
+    border: 1px solid #2EC4B6;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+}
+.terms{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.terms span p a{
+    font-family: 'sofiaProlight';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #2EC4B6;
+}
+.terms span p{
+    font-family: 'sofiaProlight';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+@media screen and (max-width: 700px) {
+    .body-wrapper{
+        flex-wrap: wrap;
+    }
+    .first-sec{
+        width: 100%;
+        padding-top: 20px;
+    }
+    .first-sec-wrapp{
+        width: 390px;
+    }
+    .sec-sec{
+        width: 100%;
+    }
+    .form-wrapp{
+        height: 870px;
+        padding: 40px 25px 0px 35px;
+        width: 327px;
+    }
+    .form-wrapp form{
+        width: 327px;
+        height: 870px;
+    }
+    .form-first-sec{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .form-sec-sec{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .form-thir-sec{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    .form-div input, .for-div-t{
+        width: 295px;     
+    }
+    .for-div-t input{
+        width: 255px;     
+    }
+    .form-div select, .form-div-two select{
+        width: 308px;     
+    }
+    .btn button{
+        width: 308px;     
+       
+    }
+    .terms span p{
+        text-align: center;
+        width: 300px;
+    }
+}
